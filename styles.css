@@ -1,35 +1,29 @@
-body {
-  background-color: #004643;
-}
 
-.name {
-  color: #fffffe;
-}
-
-.social-icons a {
-  color: #fffffe;
-  text-decoration: none;
-}
-
-.link {
-  background-color: #f9bc60;
-}
-
-.link a {
-  color: #001e1d;
-  text-decoration: none;
-}
-
-.banner-image {
-  width: 128px;
-  height: 128px;
-  object-fit: cover;
-  border-radius: 128px;
-}
 
 .thumbnail {
   width: 48px;
   height: 48px;
   border-radius: 48px;
   object-fit: cover;
+}
+body {
+  background-color: #f8d7da; /* Light pink background color */
+  color: #000; /* Black text color */
+  font-family: Arial, sans-serif; /* Choose a suitable font */
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff69b4; /* Pink color */
+}
+
+.social-icons a {
+  color: #ff69b4; /* Pink color for links */
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.social-icons a:hover {
+  text-decoration: underline;
 }
