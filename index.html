@@ -3,22 +3,25 @@
 <head>
   <meta charset="utf-8">
   <title>Mariia Nychyporenko</title>
-
 </head>
 <body>
-  <div class="banner">
-    <img src="/thumbnails/photo.jpg" alt="Mariia Nych headshot" class="banner-image">
-  </div>
+  <div class="content">
+    <div class="banner">
+      <img src="/thumbnails/photo.jpg" alt="Mariia Nych headshot" class="banner-image">
+    </div>
  
-  <div class="name">Mariia Nychyporenko</div>
+    <div class="name">Mariia Nychyporenko</div>
 
-  <div class="social-icons content">
-    <img src="/social-icons/github.jpg" class="social-icons content">
-    <a href="https://github.com/wrynych" target="_blank">GitHub</a>
-    <img src="/social-icons/tiktok.jpg" class="social-icons content">
-    <a href="https://www.tiktok.com/@wrynych?_t=8hQXkCYjyOE&_r=1" target="_blank">TikTok</a>
-    <img src="/social-icons/instagram.jpg" class="social-icons content">
-    <a href="https://instagram.com/wrynych?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Instagram</a>
+    <div class="social-icons">
+      <img src="/social-icons/github.jpg" alt="GitHub Icon" class="thumbnail">
+      <a href="https://github.com/wrynych" target="_blank">GitHub</a>
+
+      <img src="/social-icons/tiktok.jpg" alt="TikTok Icon" class="thumbnail">
+      <a href="https://www.tiktok.com/@wrynych?_t=8hQXkCYjyOE&_r=1" target="_blank">TikTok</a>
+
+      <img src="/social-icons/instagram.jpg" alt="Instagram Icon" class="thumbnail">
+      <a href="https://instagram.com/wrynych?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Instagram</a>
+    </div>
   </div>
 
 <style> 
@@ -28,15 +31,16 @@
   border-radius: 48px;
   object-fit: cover;
 }
+
 body {
   background-color: #f8d7da; /* Light pink background color */
   color: #000; /* Black text color */
   font-family: Arial, sans-serif; /* Choose a suitable font */
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       height: 100vh; /* 100% of the viewport height */
-       margin: 0; /* Remove default margin */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 100% of the viewport height */
+  margin: 0; /* Remove default margin */
 }
 
 .name {
@@ -44,31 +48,31 @@ body {
   font-weight: bold;
   color: #ff69b4; /* Pink color */
 }
+
 .banner-image {
   width: 128px;
   height: 128px;
   object-fit: cover;
-  border-radius: 128px;
+  border-radius: 50%; /* Use 50% for a perfect circle */
 }
+
 .social-icons {
+  text-align: center;
+}
+
+.social-icons img {
+  margin-right: 5px; /* Adjust the spacing between the icons and links */
+}
+
+.social-icons a {
   color: #ff69b4; /* Pink color for links */
   text-decoration: none;
-  margin-right: 15px;
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
-  object-fit: cover;
 }
 
 .social-icons a:hover {
   text-decoration: underline;
 }
-.content {
-      text-align: center;
-    }
-
 </style>
- 
-
 </body>
 </html>
+
