@@ -7,7 +7,7 @@
 <body>
   <div class="content">
     <div class="banner">
-      <img src="/thumbnails/photo.jpg" alt="Mariia Nych headshot" class="banner-image banner">
+      <img src="/thumbnails/photo.jpg" alt="Mariia Nych headshot" class="banner-image">
     </div>
  
     <div class="name">Mariia Nychyporenko</div>
@@ -15,7 +15,7 @@
     <div class="social-icons">
       <div class="icon">
         <a href="https://github.com/wrynych" target="_blank">
-          <img src="/social-icons/github.jpg" alt="GitHub Icon" class="social-icon github-icon">
+          <img src="/social-icons/github.jpg" alt="GitHub Icon" class="social-icon">
         </a>
       </div>
 
@@ -45,6 +45,10 @@ body {
   margin: 0; /* Remove default margin */
 }
 
+.content {
+  text-align: center;
+}
+
 .name {
   font-size: 24px;
   font-weight: bold;
@@ -52,7 +56,7 @@ body {
 }
 
 .banner {
-  margin-right: -120px; /* Adjust the right margin to shift the banner-image */
+  margin-right: 20px; /* Adjust the right margin to shift the banner-image */
 }
 
 .banner-image {
@@ -80,13 +84,8 @@ body {
 }
 
 .tiktok-icon {
-  width: 90px; /* Set a slightly larger size for TikTok */
-  height: 90px;
-}
-
-.github-icon {
-  width: 75px; /* Set a slightly larger size for TikTok */
-  height: 75px;
+  width: 80px; /* Set a slightly larger size for TikTok */
+  height: 80px;
 }
 
 .social-icons a {
