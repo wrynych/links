@@ -14,30 +14,26 @@
 
     <div class="social-icons">
       <div class="icon">
-        <img src="/social-icons/github.jpg" alt="GitHub Icon" class="thumbnail">
-        <a href="https://github.com/wrynych" target="_blank">GitHub</a>
+        <a href="https://github.com/wrynych" target="_blank">
+          <img src="/social-icons/github.jpg" alt="GitHub Icon" class="social-icon">
+        </a>
       </div>
 
       <div class="icon">
-        <img src="/social-icons/tiktok.jpg" alt="TikTok Icon" class="thumbnail">
-        <a href="https://www.tiktok.com/@wrynych?_t=8hQXkCYjyOE&_r=1" target="_blank">TikTok</a>
+        <a href="https://www.tiktok.com/@wrynych?_t=8hQXkCYjyOE&_r=1" target="_blank">
+          <img src="/social-icons/tiktok.jpg" alt="TikTok Icon" class="social-icon">
+        </a>
       </div>
 
       <div class="icon">
-        <img src="/social-icons/instagram.jpg" alt="Instagram Icon" class="thumbnail">
-        <a href="https://instagram.com/wrynych?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Instagram</a>
+        <a href="https://instagram.com/wrynych?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+          <img src="/social-icons/instagram.jpg" alt="Instagram Icon" class="social-icon">
+        </a>
       </div>
     </div>
   </div>
 
 <style> 
-.thumbnail {
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
-  object-fit: cover;
-}
-
 body {
   background-color: #f8d7da; /* Light pink background color */
   color: #000; /* Black text color */
@@ -66,19 +62,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5px;
 }
 
 .icon {
   margin-bottom: 15px; /* Adjust the spacing between icons */
 }
 
-.social-icons img {
-  margin-bottom: 5px; /* Adjust the spacing between the icons and links */
+.social-icon {
+  width: 64px; /* Set a fixed size for all icons */
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .social-icons a {
-  color: #ff69b4; /* Pink color for links */
   text-decoration: none;
 }
 
